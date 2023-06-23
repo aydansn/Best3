@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>BirdWebsite</title>
+</head>
+<body>
+    <div class="topnav container" id="myTopnav">
+        <a href="#home" class="active"><i class="fa-solid fa-chevron-down fa-xl" style="color: #ee9144;"></i>
+            <b>
+                450GSM
+               </b>
+        </a>
+        <div class="all">
+            <a href="#news"><i class="fa-solid fa-user"></i></a>
+        <a href="#contact"><i class="fa-sharp fa-solid fa-basket-shopping"></i></a>
+        <a id="counter" href="#about">0.00$<span>0</span></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        </div>
+      </div>
+
+      <main class="container">
+        <div class="left">
+            <h1>Our clients come to us because we offer amazing quality print at unbeatable low prices.</h1>
+            <p class="nexttext  ">From <a href="" style="color: rgb(55, 135, 55);">business</a> cards, letterheads and compliment slips to flyers, posters and roller banners, all prices include delivery to mainland UK and VAT'.</p>
+            <button>START PRINTING</button>
+            <p>"Where applitable.</p>
+        </div>
+        <div class="right">
+            <img src="./2f8e50eabe66d3611d30f9108984615e-origami-bird-silhouette.png" alt="">
+        </div>
+      </main>
+      
+      
+      
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
